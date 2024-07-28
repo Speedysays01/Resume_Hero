@@ -1,0 +1,43 @@
+.container {
+    min-width: 550px;
+    min-height: 550px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  
+    padding-top: 5px;
+    height: fit-content;
+    margin: 0 auto;
+   
+  }
+
+  
+h1{
+    background-clip: text;
+    background-image: linear-gradient(to right, #3572EF, #050C9C);
+    color: transparent;
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+
+  .heading {
+    margin: 0 auto;
+    max-width: 500px;
+    color: #000;
+    font-size: 3.1rem;
+    line-height: 4.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline;
+  }
+  
+  .heading span {
+    background-clip: text;
+    background-image: linear-gradient(to right, #239ce2, #1369b9);
+    background-image: #3572EF;
+    color: transparent;
+  }

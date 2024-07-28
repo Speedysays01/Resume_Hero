@@ -1,0 +1,17 @@
+.container{
+    background: #EE4E4E;
+    background: #538392;
+    padding: 1rem;
+    margin-bottom: 0;
+    width: 100vw;
+    border: 0;
+    gap: 0;
+    position: absolute
+}
+
+.navbarBrand{
+    font-weight: bolder;
+    color: #65c7ff;
+    font-size: 1.5rem;
+
+}

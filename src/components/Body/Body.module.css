@@ -1,0 +1,96 @@
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 0;
+  position: relative ;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  background:#FFF455;
+  background: #538392;
+  padding: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 2rem;
+}
+
+.colors {
+  display: flex;
+  gap: 20px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  
+}
+
+.colors .color {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: #239ce2;
+  border: 2px solid whitesmoke;
+}
+.colors .active {
+  border: 0.2rem solid white;
+}
+
+
+
+.toolbar button {
+  padding: 1rem 16px;
+  border-radius: 5px;
+  background-color: #239ce2;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+}
+
+.toolbar button svg {
+  height: 20px;
+  width: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+p{
+  margin-top: 0.6rem;
+  color: white;
+}
+
+.wrap{
+  display: flex;
+  margin-top: 5rem;
+  position: relative;
+  background:#F1F8E8;
+  padding: 2rem;
+  border-radius: 4rem;
+}
